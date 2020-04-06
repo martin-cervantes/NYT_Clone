@@ -55,3 +55,12 @@ table {
 }
 
 /* YOUR CODE HERE */
+
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.left a {
+  text-transform: uppercase;
+}
