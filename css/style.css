@@ -3,19 +3,21 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+h1,
+h2,
+p,
+a,
+img,
+figure,
+figcaption,
+footer,
+header,
+nav,
+section {
   margin: 0;
   padding: 0;
   border: 0;
@@ -26,32 +28,17 @@ time, mark, audio, video {
 
 /* HTML5 display-role reset for older browsers */
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+figcaption,
+figure,
+footer,
+header,
+nav,
+section {
   display: block;
 }
 
 body {
   line-height: 1;
-}
-
-ol, ul {
-  list-style: none;
-}
-
-blockquote, q {
-  quotes: none;
-}
-
-blockquote::before, blockquote::after,
-q:before, q::after {
-  content: '';
-  content: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
 }
 
 /* fonts */
@@ -85,8 +72,8 @@ nav {
   display: flex;
   flex-direction: row;
   height: 3em;
-  width: 99%;
   position: fixed;
+  width: 100%;
 }
 
 .left {
@@ -155,10 +142,10 @@ h1 {
   font-family: 'Cheltenham', georgia, "times new roman", times, serif;
   font-size: 2.1rem;
   font-style: italic;
-  font-weight: 520;
+  font-weight: 500;
   line-height: 1.25em;
-  padding-top: 2.5em;
   margin: 0 auto 0.6em;
+  padding-top: 2.5em;
   width: 18em;
 }
 
@@ -183,19 +170,19 @@ figcaption span {
   color: #888;
 }
 
-section {
-  width: 38em;
-  margin: 0 auto;
+.section {
   font-family: 'Imperial', georgia, 'times new roman', times, serif;
   font-size: 1.25em;
   line-height: 1.5em;
+  margin: 0 auto;
+  width: 38em;
 }
 
 .article_info {
   display: flex;
   flex-direction: column;
-  margin-top: 3em;
-  margin-bottom: 1.5em;
+  margin: 3em auto 1.5em;
+  width: 38em;
 }
 
 .author {
@@ -236,7 +223,7 @@ section {
   opacity: 0.75;
 }
 
-section p {
+.section p {
   margin-bottom: 1.5em;
 }
 
@@ -245,17 +232,51 @@ section p {
 }
 
 .unlock {
-  display: flex;
-  flex-direction: column;
   align-items: center;
   color: #333;
-  line-height: 1.3em;
+  display: flex;
+  flex-direction: column;
   font-size: 0.75em;
   font-weight: 800;
-  margin-top: 1.5em;
+  line-height: 1.3em;
   margin-bottom: 2em;
+  margin-top: 1.5em;
 }
 
 .unlock p {
   margin: 0;
+}
+
+/* media queries */
+
+@media (min-width: 1200px) {
+  .fa-user {
+    display: none;
+  }
+}
+
+@media (max-width: 1201px) {
+  .buttons,
+  .fa-search,
+  .space {
+    display: none;
+  }
+
+  figure img,
+  figcaption {
+    width: 100%;
+  }
+}
+
+@media (max-width: 750px) {
+  .left,
+  .right {
+    flex: 1;
+  }
+
+  .article_info,
+  .section {
+    margin: 0 1em;
+    width: 100%;
+  }
 }
