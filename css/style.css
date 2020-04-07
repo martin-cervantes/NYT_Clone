@@ -91,6 +91,15 @@ nav {
   margin: 1em;
 }
 
+footer a {
+  color: #333;
+  font-family: 'Libre Franklin', helvetica, arial, sans-serif;
+  font-size: 0.8em;
+  font-weight: 500;
+  margin: 0.4em 0;
+  text-decoration: none;
+}
+
 .left a {
   color: black;
   font-family: 'Libre Franklin', helvetica, arial, sans-serif;
@@ -353,6 +362,16 @@ aside .ads a {
   text-decoration: none;
 }
 
+footer .copy_right a {
+  color: #666;
+  font-size: 0.9em;
+  margin-left: 1.5em;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
 aside .ads a:hover {
   text-decoration: underline;
 }
@@ -396,19 +415,6 @@ footer .title:first-child {
   font-size: 0.8em;
   font-weight: 600;
   margin-bottom: 0.9em;
-}
-
-footer a {
-  color: #333;
-  font-family: 'Libre Franklin', helvetica, arial, sans-serif;
-  font-size: 0.8em;
-  font-weight: 500;
-  margin: 0.4em 0;
-  text-decoration: none;
-}
-
-footer a:hover {
-  text-decoration: underline;
 }
 
 footer .options {
@@ -455,12 +461,6 @@ footer .copy_right {
   font-size: 0.7em;
   padding-top: 1.2em;
   margin-top: 1em;
-}
-
-footer .copy_right a {
-  color: #666;
-  font-size: 0.9em;
-  margin-left: 1.5em;
 }
 
 /* media queries */
