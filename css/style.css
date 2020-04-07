@@ -417,7 +417,7 @@ footer a:hover {
   color: #333;
 }
 
-.last {
+.section:last-child .last {
   display: flex;
   flex-direction: row;
 }
@@ -428,11 +428,11 @@ footer a:hover {
   color: white;
   font-family: 'Libre Franklin', helvetica, arial, sans-serif;
   font-size: 0.6em;
-  font-weight: 200;
-  padding: 0.4em 8.5em;
   text-decoration: none;
   text-transform: uppercase;
-  height: 2.2em;
+  text-align: center;
+  padding: 0.5em;
+  width: 27em;
 }
 
 .section:last-child .last .button:hover {
@@ -655,7 +655,10 @@ footer .copy_right {
     width: 89%;
   }
 
-  .last {
+  .section:last-child .last {
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
   }
 }
