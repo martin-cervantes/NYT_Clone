@@ -422,7 +422,7 @@ footer a:hover {
   flex-direction: row;
 }
 
-.section:last-child .last .buttons {
+.section:last-child .last .button {
   background-color: #567b95;
   border-radius: 0.2em;
   color: white;
@@ -435,7 +435,7 @@ footer a:hover {
   height: 2.2em;
 }
 
-.section:last-child .last .buttons:hover {
+.section:last-child .last .button:hover {
   background-color: #326891;
 }
 
@@ -513,7 +513,7 @@ footer {
   margin-top: 2em;
 }
 
-.footer_title:first-child {
+footer .title:first-child {
   font-family: 'Libre Franklin', helvetica, arial, sans-serif;
   font-size: 0.8em;
   font-weight: 600;
@@ -591,16 +591,20 @@ footer .copy_right {
     width: 98%;
   }
 
+  .theory {
+    width: 85%;
+  }
+
   footer {
     margin-bottom: 0.8em;
   }
 
-  footer .options {
+  .footer_options {
     display: flex;
     flex-direction: column;
   }
 
-  footer .options .title {
+  .footer_options .title {
     border-top: 1px solid #e2e2e2;
     padding: 1em 0;
   }
@@ -649,5 +653,9 @@ footer .copy_right {
     padding-left: 0.1em;
     padding-right: 0.1em;
     width: 89%;
+  }
+
+  .last {
+    flex-direction: column;
   }
 }
