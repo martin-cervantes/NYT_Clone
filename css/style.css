@@ -18,11 +18,11 @@ nav,
 p,
 section,
 span {
-  margin: 0;
-  padding: 0;
   border: 0;
   font: inherit;
   font-size: 100%;
+  margin: 0;
+  padding: 0;
   vertical-align: baseline;
 }
 
@@ -249,13 +249,13 @@ figcaption span {
 }
 
 .icons .icon {
-  color: black;
   background-color: #eee;
   border: 2px #eee solid;
-  padding: 0.4em;
   border-radius: 50%;
+  color: black;
   margin-right: 1em;
   opacity: 0.75;
+  padding: 0.4em;
 }
 
 .icons .icon:hover {
@@ -451,14 +451,14 @@ a.op.mini.fborder_bottom {
 }
 
 footer .copy_right {
+  align-items: center;
   border-top: 1px solid #e2e2e2;
   color: #666;
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: row;
   font-family: 'Libre Franklin', helvetica, arial, sans-serif;
   font-size: 0.7em;
+  justify-content: center;
   padding-top: 1.2em;
   margin-top: 1em;
 }
@@ -513,8 +513,8 @@ footer .copy_right {
 
   footer .copy_right .copy_right_options {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   footer .copy_right .copy_right_options a.op {
