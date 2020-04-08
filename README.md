@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://mcervantes71.github.io//index.html)
+[Live Demo Link](https://mcervantes71.github.io/NYT_Clone/index.html)
 
 ## Getting Started
 
