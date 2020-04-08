@@ -1,6 +1,6 @@
 # Project Name
 
-    Project brief description
+    This is cloned page of New York Time page as part op practicing HTML coding.
 
 ![screenshot](./screenshot.png)
 
@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://mcervantes71.github.io//index.html)
+[Live Demo Link](https://mcervantes71.github.io/NYT_Clone/index.html)
 
 ## Getting Started
 
