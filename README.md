@@ -1,6 +1,6 @@
 # Project Name
 
-    Project brief description
+    This is cloned page of New York Time page as part op practicing HTML coding.
 
 ![screenshot](./screenshot.png)
 
