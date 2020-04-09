@@ -1,6 +1,6 @@
 # Project Name
 
-    This is cloned page of New York Time page as part op practicing HTML coding.
+This project consists of building an HTML document that matches the appearance of a New York Time article for learning purpose.
 
 ![screenshot](./screenshot.png)
 
