@@ -1,6 +1,7 @@
 # Project Name
 
-This project consists of building an HTML document that matches the appearance of a New York Time article for learning purpose.
+    This project consists of building an HTML document that matches the appearance of a New York Time article
+    for learning purpose.
 
 ![screenshot](./screenshot.png)
 
